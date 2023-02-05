@@ -48,9 +48,9 @@ public class ViewUsuario extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel1.setText("Codico:");
+        jLabel1.setText("Codico");
 
-        jTextField1.setBackground(new java.awt.Color(153, 153, 153));
+        jTextField1.setBackground(new java.awt.Color(204, 204, 204));
         jTextField1.setForeground(new java.awt.Color(204, 204, 204));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,20 +58,30 @@ public class ViewUsuario extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Nome");
 
+        jTextField2.setBackground(new java.awt.Color(204, 204, 204));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
 
+        jTextField3.setBackground(new java.awt.Color(204, 204, 204));
+
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Login");
 
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Senha");
 
+        jPasswordField1.setBackground(new java.awt.Color(204, 204, 204));
+        jPasswordField1.setForeground(new java.awt.Color(204, 204, 204));
         jPasswordField1.setText("jPasswordField1");
 
+        jTable1.setBackground(new java.awt.Color(255, 255, 255));
+        jTable1.setForeground(new java.awt.Color(0, 0, 0));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
@@ -91,6 +101,7 @@ public class ViewUsuario extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        jTable1.setGridColor(new java.awt.Color(0, 0, 0));
         jScrollPane1.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
             jTable1.getColumnModel().getColumn(0).setMinWidth(100);
@@ -98,8 +109,12 @@ public class ViewUsuario extends javax.swing.JFrame {
             jTable1.getColumnModel().getColumn(0).setMaxWidth(100);
         }
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 204));
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Salvar");
 
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Limpar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,8 +122,12 @@ public class ViewUsuario extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(204, 204, 204));
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("Excluir");
 
+        jButton4.setBackground(new java.awt.Color(204, 204, 204));
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
         jButton4.setText("Alterar");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
