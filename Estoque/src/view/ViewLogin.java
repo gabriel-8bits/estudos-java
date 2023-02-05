@@ -38,11 +38,13 @@ public class ViewLogin extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
+        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setText("jTextField1");
         jTextField1.setCaretColor(new java.awt.Color(0, 0, 0));
         jTextField1.setDisabledTextColor(new java.awt.Color(0, 0, 0));
 
         jPasswordField1.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
         jPasswordField1.setText("jPasswordField1");
         jPasswordField1.setCaretColor(new java.awt.Color(0, 0, 0));
 
