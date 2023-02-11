@@ -58,7 +58,7 @@ public class ViewEstoque extends javax.swing.JFrame {
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ENTRADA", "SAIDA" }));
 
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel2.setText("Descrição do Produto");
+        jLabel2.setText("Descrição do produto");
 
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
@@ -77,7 +77,7 @@ public class ViewEstoque extends javax.swing.JFrame {
         jButton1.setText("Executar");
 
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel6.setText("Texto para Pesquisa");
+        jLabel6.setText("Texto para pesquisa");
 
         jTextField3.setBackground(new java.awt.Color(255, 255, 255));
         jTextField3.setForeground(new java.awt.Color(0, 0, 0));
