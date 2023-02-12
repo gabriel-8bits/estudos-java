@@ -28,10 +28,10 @@ public class ViewPrincipal extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btnUsuario = new javax.swing.JButton();
+        btnProduto = new javax.swing.JButton();
+        btnEstoque = new javax.swing.JButton();
+        btnSair = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -46,29 +46,29 @@ public class ViewPrincipal extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(153, 153, 153));
 
-        jButton1.setBackground(new java.awt.Color(204, 204, 204));
-        jButton1.setForeground(new java.awt.Color(0, 0, 0));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-usuário-100px.png"))); // NOI18N
-        jButton1.setText("Usuario");
-        jPanel2.add(jButton1);
+        btnUsuario.setBackground(new java.awt.Color(204, 204, 204));
+        btnUsuario.setForeground(new java.awt.Color(0, 0, 0));
+        btnUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-usuário-100px.png"))); // NOI18N
+        btnUsuario.setText("Usuario");
+        jPanel2.add(btnUsuario);
 
-        jButton2.setBackground(new java.awt.Color(204, 204, 204));
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-produto-100.png"))); // NOI18N
-        jButton2.setText("Produto");
-        jPanel2.add(jButton2);
+        btnProduto.setBackground(new java.awt.Color(204, 204, 204));
+        btnProduto.setForeground(new java.awt.Color(0, 0, 0));
+        btnProduto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-produto-100.png"))); // NOI18N
+        btnProduto.setText("Produto");
+        jPanel2.add(btnProduto);
 
-        jButton3.setBackground(new java.awt.Color(204, 204, 204));
-        jButton3.setForeground(new java.awt.Color(0, 0, 0));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-estoque-100px.png"))); // NOI18N
-        jButton3.setText("Estoque");
-        jPanel2.add(jButton3);
+        btnEstoque.setBackground(new java.awt.Color(204, 204, 204));
+        btnEstoque.setForeground(new java.awt.Color(0, 0, 0));
+        btnEstoque.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-estoque-100px.png"))); // NOI18N
+        btnEstoque.setText("Estoque");
+        jPanel2.add(btnEstoque);
 
-        jButton4.setBackground(new java.awt.Color(204, 204, 204));
-        jButton4.setForeground(new java.awt.Color(0, 0, 0));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-sair-100px.png"))); // NOI18N
-        jButton4.setText("Sair");
-        jPanel2.add(jButton4);
+        btnSair.setBackground(new java.awt.Color(204, 204, 204));
+        btnSair.setForeground(new java.awt.Color(0, 0, 0));
+        btnSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-sair-100px.png"))); // NOI18N
+        btnSair.setText("Sair");
+        jPanel2.add(btnSair);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -177,10 +177,10 @@ public class ViewPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
+    private javax.swing.JButton btnEstoque;
+    private javax.swing.JButton btnProduto;
+    private javax.swing.JButton btnSair;
+    private javax.swing.JButton btnUsuario;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
