@@ -48,21 +48,25 @@ public class ViewPrincipal extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setForeground(new java.awt.Color(0, 0, 0));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-usuário-100px.png"))); // NOI18N
         jButton1.setText("Usuario");
         jPanel2.add(jButton1);
 
         jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setForeground(new java.awt.Color(0, 0, 0));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-produto-100.png"))); // NOI18N
         jButton2.setText("Produto");
         jPanel2.add(jButton2);
 
         jButton3.setBackground(new java.awt.Color(204, 204, 204));
         jButton3.setForeground(new java.awt.Color(0, 0, 0));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-estoque-100px.png"))); // NOI18N
         jButton3.setText("Estoque");
         jPanel2.add(jButton3);
 
         jButton4.setBackground(new java.awt.Color(204, 204, 204));
         jButton4.setForeground(new java.awt.Color(0, 0, 0));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/btn-sair-100px.png"))); // NOI18N
         jButton4.setText("Sair");
         jPanel2.add(jButton4);
 
@@ -76,7 +80,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 316, Short.MAX_VALUE))
+                .addGap(0, 234, Short.MAX_VALUE))
         );
 
         jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
